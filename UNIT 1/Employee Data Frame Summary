@@ -1,0 +1,2 @@
+emp_df <- data.frame(ID=1:5, Name=c("John", "Doe", "Anna", "Mike", "Sara"), Age=c(25,35,28,40,30), Salary=c(45000, 60000, 52000, 70000, 48000))
+print(summary(emp_df))

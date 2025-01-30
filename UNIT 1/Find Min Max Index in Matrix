@@ -1,0 +1,5 @@
+mat <- matrix(sample(1:100, 16), nrow=4)
+max_idx <- which(mat == max(mat), arr.ind=TRUE)
+min_idx <- which(mat == min(mat), arr.ind=TRUE)
+print(max_idx)
+print(min_idx)

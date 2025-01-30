@@ -1,0 +1,7 @@
+mat <- matrix(1:12, nrow=4)
+print(mat[1:2,])
+reshaped <- array(mat, dim=c(2,3,2))
+sum_rows <- rowSums(mat)
+sum_cols <- colSums(mat)
+print(sum_rows)
+print(sum_cols)

@@ -1,0 +1,8 @@
+x <- 8
+y <- 2
+sum <- x + y
+diff <- x - y
+prod <- x * y
+div <- x / y
+exp <- x^y
+cat("Addition:", sum, "\nSubtraction:", diff, "\nMultiplication:", prod, "\nDivision:", div, "\nExponentiation:", exp, "\n")

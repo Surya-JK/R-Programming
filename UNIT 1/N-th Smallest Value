@@ -1,0 +1,4 @@
+n <- 3
+sorted_vec <- sort(vec)
+nth_smallest <- sorted_vec[n]
+print(nth_smallest)

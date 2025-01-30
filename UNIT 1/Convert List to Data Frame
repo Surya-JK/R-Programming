@@ -1,0 +1,3 @@
+lst <- list(ID=1:3, Name=c("Alice", "Bob", "Charlie"))
+df <- as.data.frame(lst)
+print(df)

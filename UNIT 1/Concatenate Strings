@@ -1,0 +1,3 @@
+str_vec <- c("Hello", "World", "R")
+concat_str <- paste(str_vec, collapse=" ")
+print(concat_str)

@@ -1,0 +1,6 @@
+num_val <- 10.5
+int_val <- as.integer(num_val)
+char_val <- as.character(num_val)
+log_val <- as.logical(num_val)
+comp_val <- as.complex(num_val)
+print(list(num_val, int_val, char_val, log_val, comp_val))

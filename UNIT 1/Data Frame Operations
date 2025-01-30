@@ -1,0 +1,5 @@
+employees <- data.frame(ID = 1:3, Name = c("Alice", "Bob", "Charlie"), Age = c(25, 30, 28), Salary = c(50000, 55000, 52000))
+employees$Department <- c("HR", "IT", "Finance")
+filtered <- subset(employees, Salary > 51000)
+sorted <- employees[order(employees$Salary),]
+print(sorted)

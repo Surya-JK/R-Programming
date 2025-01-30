@@ -1,0 +1,3 @@
+colors <- factor(c("Red", "Blue", "Green", "Red", "Blue"))
+levels(colors) <- c("Red", "Blue", "Green")
+print(colors)
